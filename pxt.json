@@ -1,5 +1,6 @@
 {
     "name": "pxt-lcd-rgb-16x2-i2c",
+    "version": "1.0.0",
     "description": "",
     "dependencies": {
         "core": "*"
