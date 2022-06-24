@@ -1,7 +1,5 @@
 # Sparkfun LCD with RGB Backlight
 
-![Build status](https://github.com/evergreen22/pxt-lcd-rgb-16x2-i2c/workflows/MakeCode/badge.svg) 
-
 [Micro:bit extension for the [Sparkfun 16x2 SerLCD - RGB Backlight](https://www.sparkfun.com/products/16396) LCD Display]
 
 ![SparkFun 16x2 SerLCD - Black on RGB 3.3V (LCD-14072)](https://cdn.sparkfun.com//assets/parts/1/5/1/2/2/16396-SparkFun_16x2_SerLCD_-_RGB_Backlight__Qwiic_-05.jpg)
@@ -45,7 +43,7 @@ Yellow     | P19 (SCL)
 
 ## Why doesn't the LCD show anything with the `show string` block or `show number` block?
 
-The LCD must be initialized before it will work. Initialize the display with the `set LCD address` block as shown below.
+The LCD must be initialized before it will work. Initialize the display with the `set LCD address` block as shown below. The address is preset to the default.
 
 ```blocks
 LcdRgb16x2.lcdInit(114)
@@ -72,7 +70,7 @@ basic.pause(1000)
 LcdRgb16x2.showString("Hello World")
 ```
 
-## Edit this project ![Build status badge](https://github.com/evergreen22/pxt-lcd-rgb-16x2-i2c/workflows/MakeCode/badge.svg)
+## Edit this project
 
 To edit this repository in MakeCode.
 
